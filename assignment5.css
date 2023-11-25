@@ -1,0 +1,72 @@
+body{
+    background: rgb(165,59,231);
+    background: linear-gradient(45deg, rgba(165,59,231,1) 10%, rgba(197,15,213,1) 65%);
+}
+#name{
+    display: flex;
+}
+#phone{
+    display: flex;
+}
+#form{
+    height: 60vh;
+    width: 40vw;
+    background-color: white;
+}
+#title{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+#main_form{
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+.c1{
+    position: relative;
+    left: 50px;
+}
+.c3{
+    position: relative;
+    left:70px
+}
+.c2{
+    position: relative;
+    left:25px;
+    
+}
+#area{
+    width: 40px;
+}
+#num{
+    position: relative;
+    left: 60px;
+}
+.color{
+    background-color:rgb(244, 241, 241);
+    height: 20px;
+}
+button{
+    background-color: rgb(233, 49, 49);
+    height: 30px;
+    width: 80px;
+    color: white;
+    
+}
+.t-col{
+    color: gray;
+}
+.width{
+    width: 25vw;
+}
+.num{
+    width: 19vw;
+}
+#form{
+    position: relative;
+    top: 20vh;
+    left: 30vw;
+}

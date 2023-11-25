@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid task-5</title>
+    <link rel="stylesheet" href="assignment5.css">
+</head>
+<body>
+    <div id="form">
+        <div id="title">Event Registration Form</div>
+        <div id="main_form">
+            <!-- name -->
+            <div id="name" >
+                <label>Name</label>
+                <div class="c1">
+                <input type="text" class="color"><br>
+                <label for="fname" class="t-col">First Name</label></div>
+                <div class="c3">
+                    <input type="text" class="color"><br>
+                    <label for="fname" class="t-col">Last Name</label></div>  
+            </div><br>
+            <!-- company -->
+            <label> Company</label>
+            <input type="text" class="c2 color width" ><br><br>
+            <!-- email -->
+            <label>Email</label>
+            <input type="email" class="c1 color width"><br><br>
+            <!--mobile number  -->
+            <div id="phone">
+                <label>Phone</label>
+                <div class="c1">
+                <input type="number" id="area" class="color"><br>
+                <label for="code" class="t-col">Area Code</label></div>
+                <div id="num">
+                    <input type="tel" class="color width num"><br>
+                    <label for="number" id="num" class="c3 t-col">Phone Number</label></div> 
+                </div><br><br>
+                <!-- subject -->
+                    <label>Subject</label>
+                <!-- radio -->
+                    <select class="c2 color width" >
+                        <option>Choose Option</option>
+                    </select><br>
+                    <p> Are you an existing customer?</p>
+                    <input type="radio" value="yes" name="customer">
+            <label for="customer">Yes</label>
+            <input type="radio" value="no" name="customer">
+            <label for="customer">No</label><br><br>
+            <!-- button -->
+            <button type="submit">Register</button>
+    </div>
+</body>
+</html>
